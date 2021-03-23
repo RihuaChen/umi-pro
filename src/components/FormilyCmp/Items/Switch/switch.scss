@@ -1,0 +1,28 @@
+.switchWrapper {
+  height: 63px;
+  padding-left: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 63px;
+  .title {
+    margin-right: 20px;
+  }
+  :global {
+    .ant-switch {
+      width: 51px;
+      height: 30px;
+    }
+
+    .ant-switch-handle {
+      top: 1px;
+      width: 28px;
+      height: 28px;
+      &::before {
+        border-radius: 15px;
+      }
+    }
+    .ant-switch-checked .ant-switch-handle {
+      left: calc(100% - 29px);
+    }
+  }
+}

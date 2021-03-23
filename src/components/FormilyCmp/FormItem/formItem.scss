@@ -1,0 +1,25 @@
+@import '~@/variables.scss';
+
+$errorHeight: 18px;
+
+.zm-form-item {
+  margin-bottom: $errorHeight;
+  .title {
+    margin-bottom: $errorHeight;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .zm-error {
+    color: $red;
+    font-size: 12px;
+    line-height: $errorHeight;
+  }
+}
+.desc {
+  height: 28px;
+  color: $blue;
+}
+.zm-form-helper {
+  margin: 0;
+}
