@@ -40,3 +40,10 @@ interface Window {
 declare let ga: Function;
 
 declare const REACT_APP_ENV: 'dev' | 'dev2' | 'dev3' | false;
+declare module 'qs';
+
+// declare module 'umi' {
+//   export const useDispatch;
+//   export const useSelector;
+//   export type Subscription = {};
+// }
